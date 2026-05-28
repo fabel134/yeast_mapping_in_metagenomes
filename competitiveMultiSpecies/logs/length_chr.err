@@ -1,0 +1,59 @@
+++ pwd
++ source /home/nselem/competitiveMultiSpecies/config
++++ pwd
+++ BaseDir=/home/nselem/competitiveMultiSpecies
+++ srcDir=/home/nselem/competitiveMultiSpecies/src
+++ archiveYes=no
+++ typeReads=long
+++ genomesDir=/home/nselem/competitiveMultiSpecies/genomes
+++ sacchDir=/home/nselem/competitiveMultiSpecies/genomes/sacch
+++ outDir=/home/shared/onsimulation/metagenome/100simulation/Sce4Mock_100_1M/SGD/bam
+++ fastqDir=/home/shared/onsimulation/metagenome/100simulation/Sce4Mock_100_1M/SGD
+++ nThreads=4
+++ add=4
+++ nSamples=20
+++ nBatch=20
+++ bin_step=10000
+++ lengthChrsDir=/home/nselem/competitiveMultiSpecies/length_chrs
+++ listChrsDir=/home/nselem/competitiveMultiSpecies/list_chrs
+++ bedDir=/home/nselem/competitiveMultiSpecies/bed
+++ mapDir=/home/nselem/competitiveMultiSpecies/map
+++ cpsDir=/home/nselem/competitiveMultiSpecies/cps
+++ covDir=/home/nselem/competitiveMultiSpecies/cov
+++ repDir=/home/nselem/competitiveMultiSpecies/rep
+++ logsDir=/home/nselem/competitiveMultiSpecies/logs
+++ tmpDir=/home/nselem/competitiveMultiSpecies/tmp
+++ plotDir=/home/nselem/competitiveMultiSpecies/plots
+++ multiFastaDir=/home/nselem/competitiveMultiSpecies/genomes/multifasta
+++ checkFile=/home/nselem/competitiveMultiSpecies/cps/cps.txt
+++ FILE=/home/nselem/competitiveMultiSpecies/file
++ commonMultiFasta=/home/nselem/competitiveMultiSpecies/genomes/multifasta/multi_species.fa
+++ basename /home/nselem/competitiveMultiSpecies/genomes/multifasta/multi_species.fa
++ filename=multi_species.fa
++ nameID=multi_species
++ infoseq -delimiter '\t' -only -noheading -name -length /home/nselem/competitiveMultiSpecies/genomes/multifasta/multi_species.fa
+Display basic information about sequences
++ echo 'Creato: /home/nselem/competitiveMultiSpecies/length_chrs/multi_species.chrs.len'
+	Command being timed: "bash /home/nselem/competitiveMultiSpecies/src/length_chr.sh"
+	User time (seconds): 2.19
+	System time (seconds): 0.13
+	Percent of CPU this job got: 100%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.33
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 23552
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 3940
+	Voluntary context switches: 12
+	Involuntary context switches: 2
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 48
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

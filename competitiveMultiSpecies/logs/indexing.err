@@ -1,0 +1,246 @@
+++ pwd
++ source /home/nselem/competitiveMultiSpecies/config
++++ pwd
+++ BaseDir=/home/nselem/competitiveMultiSpecies
+++ srcDir=/home/nselem/competitiveMultiSpecies/src
+++ archiveYes=no
+++ typeReads=long
+++ genomesDir=/home/nselem/competitiveMultiSpecies/genomes
+++ sacchDir=/home/nselem/competitiveMultiSpecies/genomes/sacch
+++ outDir=/home/shared/onsimulation/metagenome/100simulation/Sce4Mock_100_1M/SGD/bam
+++ fastqDir=/home/shared/onsimulation/metagenome/100simulation/Sce4Mock_100_1M/SGD
+++ nThreads=4
+++ add=4
+++ nSamples=20
+++ nBatch=20
+++ bin_step=10000
+++ lengthChrsDir=/home/nselem/competitiveMultiSpecies/length_chrs
+++ listChrsDir=/home/nselem/competitiveMultiSpecies/list_chrs
+++ bedDir=/home/nselem/competitiveMultiSpecies/bed
+++ mapDir=/home/nselem/competitiveMultiSpecies/map
+++ cpsDir=/home/nselem/competitiveMultiSpecies/cps
+++ covDir=/home/nselem/competitiveMultiSpecies/cov
+++ repDir=/home/nselem/competitiveMultiSpecies/rep
+++ logsDir=/home/nselem/competitiveMultiSpecies/logs
+++ tmpDir=/home/nselem/competitiveMultiSpecies/tmp
+++ plotDir=/home/nselem/competitiveMultiSpecies/plots
+++ multiFastaDir=/home/nselem/competitiveMultiSpecies/genomes/multifasta
+++ checkFile=/home/nselem/competitiveMultiSpecies/cps/cps.txt
+++ FILE=/home/nselem/competitiveMultiSpecies/file
+++ conda info --base
+Unexpected error writing token file:
+  path: /home/nselem/.conda/aau_token_host
+  exception: write() argument must be str, not None
++ source /home/nselem/miniconda3/etc/profile.d/conda.sh
+++ export CONDA_EXE=/home/nselem/miniconda3/bin/conda
+++ CONDA_EXE=/home/nselem/miniconda3/bin/conda
+++ export _CONDA_EXE=/home/nselem/miniconda3/bin/conda
+++ _CONDA_EXE=/home/nselem/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/home/nselem/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/home/nselem/miniconda3/bin/python
+++ export _CONDA_ROOT=/home/nselem/miniconda3
+++ _CONDA_ROOT=/home/nselem/miniconda3
+++ '[' -z x ']'
++ conda activate bwa-mem2
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate bwa-mem2
++ '[' -n '' ']'
++ local ask_conda
+++ PS1=
+++ __conda_exe shell.posix activate bwa-mem2
+++ '[' -n '' ']'
+++ /home/nselem/miniconda3/bin/conda shell.posix activate bwa-mem2
++ ask_conda='. "/home/nselem/miniconda3/envs/simmeta/etc/conda/deactivate.d/libglib_deactivate.sh"
+. "/home/nselem/miniconda3/envs/simmeta/etc/conda/deactivate.d/deactivate-r-base.sh"
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+PS1='\''(bwa-mem2) '\''
+export PATH='\''/home/nselem/miniconda3/envs/bwa-mem2/bin:/home/nselem/miniconda3/condabin:/home/tools/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'\''
+export CONDA_PREFIX='\''/home/nselem/miniconda3/envs/bwa-mem2'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''bwa-mem2'\''
+export CONDA_PROMPT_MODIFIER='\''(bwa-mem2) '\''
+export CONDA_PREFIX_2='\''/home/nselem/miniconda3/envs/simmeta'\''
+export CONDA_EXE='\''/home/nselem/miniconda3/bin/conda'\''
+export _CONDA_EXE='\''/home/nselem/miniconda3/bin/conda'\''
+export CONDA_PYTHON_EXE='\''/home/nselem/miniconda3/bin/python'\''
+export _CONDA_ROOT='\''/home/nselem/miniconda3'\'''
++ eval '. "/home/nselem/miniconda3/envs/simmeta/etc/conda/deactivate.d/libglib_deactivate.sh"
+. "/home/nselem/miniconda3/envs/simmeta/etc/conda/deactivate.d/deactivate-r-base.sh"
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+PS1='\''(bwa-mem2) '\''
+export PATH='\''/home/nselem/miniconda3/envs/bwa-mem2/bin:/home/nselem/miniconda3/condabin:/home/tools/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'\''
+export CONDA_PREFIX='\''/home/nselem/miniconda3/envs/bwa-mem2'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''bwa-mem2'\''
+export CONDA_PROMPT_MODIFIER='\''(bwa-mem2) '\''
+export CONDA_PREFIX_2='\''/home/nselem/miniconda3/envs/simmeta'\''
+export CONDA_EXE='\''/home/nselem/miniconda3/bin/conda'\''
+export _CONDA_EXE='\''/home/nselem/miniconda3/bin/conda'\''
+export CONDA_PYTHON_EXE='\''/home/nselem/miniconda3/bin/python'\''
+export _CONDA_ROOT='\''/home/nselem/miniconda3'\'''
+++ . /home/nselem/miniconda3/envs/simmeta/etc/conda/deactivate.d/libglib_deactivate.sh
++++ export GSETTINGS_SCHEMA_DIR=
++++ GSETTINGS_SCHEMA_DIR=
++++ unset GSETTINGS_SCHEMA_DIR_CONDA_BACKUP
++++ '[' -z ']'
++++ unset GSETTINGS_SCHEMA_DIR
+++ . /home/nselem/miniconda3/envs/simmeta/etc/conda/deactivate.d/deactivate-r-base.sh
++++ '[' -n '' ']'
++++ unset RSTUDIO_WHICH_R
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ PS1='(bwa-mem2) '
+++ export PATH=/home/nselem/miniconda3/envs/bwa-mem2/bin:/home/nselem/miniconda3/condabin:/home/tools/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+++ PATH=/home/nselem/miniconda3/envs/bwa-mem2/bin:/home/nselem/miniconda3/condabin:/home/tools/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+++ export CONDA_PREFIX=/home/nselem/miniconda3/envs/bwa-mem2
+++ CONDA_PREFIX=/home/nselem/miniconda3/envs/bwa-mem2
+++ export CONDA_SHLVL=3
+++ CONDA_SHLVL=3
+++ export CONDA_DEFAULT_ENV=bwa-mem2
+++ CONDA_DEFAULT_ENV=bwa-mem2
+++ export 'CONDA_PROMPT_MODIFIER=(bwa-mem2) '
+++ CONDA_PROMPT_MODIFIER='(bwa-mem2) '
+++ export CONDA_PREFIX_2=/home/nselem/miniconda3/envs/simmeta
+++ CONDA_PREFIX_2=/home/nselem/miniconda3/envs/simmeta
+++ export CONDA_EXE=/home/nselem/miniconda3/bin/conda
+++ CONDA_EXE=/home/nselem/miniconda3/bin/conda
+++ export _CONDA_EXE=/home/nselem/miniconda3/bin/conda
+++ _CONDA_EXE=/home/nselem/miniconda3/bin/conda
+++ export CONDA_PYTHON_EXE=/home/nselem/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/home/nselem/miniconda3/bin/python
+++ export _CONDA_ROOT=/home/nselem/miniconda3
+++ _CONDA_ROOT=/home/nselem/miniconda3
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ commonMultiFasta=/home/nselem/competitiveMultiSpecies/genomes/multifasta/multi_species.fa
+++ basename /home/nselem/competitiveMultiSpecies/genomes/multifasta/multi_species.fa
++ filename=multi_species.fa
++ nameID=multi_species
++ mkdir -p /home/nselem/competitiveMultiSpecies/rep/multi_species
++ cp /home/nselem/competitiveMultiSpecies/genomes/multifasta/multi_species.fa /home/nselem/competitiveMultiSpecies/rep/multi_species
++ samtools faidx /home/nselem/competitiveMultiSpecies/rep/multi_species/multi_species.fa
++ bwa-mem2 index /home/nselem/competitiveMultiSpecies/rep/multi_species/multi_species.fa
+Looking to launch executable "/home/nselem/miniconda3/envs/bwa-mem2/bin/bwa-mem2.avx512bw", simd = .avx512bw
+Launching executable "/home/nselem/miniconda3/envs/bwa-mem2/bin/bwa-mem2.avx512bw"
+[bwa_index] Pack FASTA... 1.22 sec
+* Entering FMI_search
+init ticks = 38733549316
+ref seq len = 1041627388
+binary seq ticks = 23104200311
+build suffix-array ticks = 352402286698
+pos: 130203424, ref_seq_len__: 130203423
+build fm-index ticks = 94607308488
+Total time taken: 134.3813
++ conda deactivate
++ local cmd=deactivate
++ case "$cmd" in
++ __conda_activate deactivate
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(bwa-mem2) '
+++ __conda_exe shell.posix deactivate
+++ '[' -n '' ']'
+++ /home/nselem/miniconda3/bin/conda shell.posix deactivate
++ ask_conda='export PATH='\''/home/nselem/miniconda3/envs/simmeta/bin:/home/nselem/miniconda3/condabin:/home/tools/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'\''
+export CONDA_PREFIX_2='\'''\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+PS1='\''(simmeta) '\''
+export CONDA_PREFIX='\''/home/nselem/miniconda3/envs/simmeta'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''simmeta'\''
+export CONDA_PROMPT_MODIFIER='\''(simmeta) '\''
+export CONDA_EXE='\''/home/nselem/miniconda3/bin/conda'\''
+export _CONDA_EXE='\''/home/nselem/miniconda3/bin/conda'\''
+export CONDA_PYTHON_EXE='\''/home/nselem/miniconda3/bin/python'\''
+export _CONDA_ROOT='\''/home/nselem/miniconda3'\''
+. "/home/nselem/miniconda3/envs/simmeta/etc/conda/activate.d/activate-r-base.sh"
+. "/home/nselem/miniconda3/envs/simmeta/etc/conda/activate.d/libglib_activate.sh"'
++ eval 'export PATH='\''/home/nselem/miniconda3/envs/simmeta/bin:/home/nselem/miniconda3/condabin:/home/tools/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'\''
+export CONDA_PREFIX_2='\'''\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+PS1='\''(simmeta) '\''
+export CONDA_PREFIX='\''/home/nselem/miniconda3/envs/simmeta'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''simmeta'\''
+export CONDA_PROMPT_MODIFIER='\''(simmeta) '\''
+export CONDA_EXE='\''/home/nselem/miniconda3/bin/conda'\''
+export _CONDA_EXE='\''/home/nselem/miniconda3/bin/conda'\''
+export CONDA_PYTHON_EXE='\''/home/nselem/miniconda3/bin/python'\''
+export _CONDA_ROOT='\''/home/nselem/miniconda3'\''
+. "/home/nselem/miniconda3/envs/simmeta/etc/conda/activate.d/activate-r-base.sh"
+. "/home/nselem/miniconda3/envs/simmeta/etc/conda/activate.d/libglib_activate.sh"'
+++ export PATH=/home/nselem/miniconda3/envs/simmeta/bin:/home/nselem/miniconda3/condabin:/home/tools/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+++ PATH=/home/nselem/miniconda3/envs/simmeta/bin:/home/nselem/miniconda3/condabin:/home/tools/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+++ export CONDA_PREFIX_2=
+++ CONDA_PREFIX_2=
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ PS1='(simmeta) '
+++ export CONDA_PREFIX=/home/nselem/miniconda3/envs/simmeta
+++ CONDA_PREFIX=/home/nselem/miniconda3/envs/simmeta
+++ export CONDA_SHLVL=2
+++ CONDA_SHLVL=2
+++ export CONDA_DEFAULT_ENV=simmeta
+++ CONDA_DEFAULT_ENV=simmeta
+++ export 'CONDA_PROMPT_MODIFIER=(simmeta) '
+++ CONDA_PROMPT_MODIFIER='(simmeta) '
+++ export CONDA_EXE=/home/nselem/miniconda3/bin/conda
+++ CONDA_EXE=/home/nselem/miniconda3/bin/conda
+++ export _CONDA_EXE=/home/nselem/miniconda3/bin/conda
+++ _CONDA_EXE=/home/nselem/miniconda3/bin/conda
+++ export CONDA_PYTHON_EXE=/home/nselem/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/home/nselem/miniconda3/bin/python
+++ export _CONDA_ROOT=/home/nselem/miniconda3
+++ _CONDA_ROOT=/home/nselem/miniconda3
+++ . /home/nselem/miniconda3/envs/simmeta/etc/conda/activate.d/activate-r-base.sh
++++ R CMD javareconf
++++ '[' -n '' ']'
++++ export RSTUDIO_WHICH_R=/home/nselem/miniconda3/envs/simmeta/bin/R
++++ RSTUDIO_WHICH_R=/home/nselem/miniconda3/envs/simmeta/bin/R
+++ . /home/nselem/miniconda3/envs/simmeta/etc/conda/activate.d/libglib_activate.sh
++++ export GSETTINGS_SCHEMA_DIR_CONDA_BACKUP=
++++ GSETTINGS_SCHEMA_DIR_CONDA_BACKUP=
++++ export GSETTINGS_SCHEMA_DIR=/home/nselem/miniconda3/envs/simmeta/share/glib-2.0/schemas
++++ GSETTINGS_SCHEMA_DIR=/home/nselem/miniconda3/envs/simmeta/share/glib-2.0/schemas
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
+	Command being timed: "bash /home/nselem/competitiveMultiSpecies/src/indexing.sh"
+	User time (seconds): 146.10
+	System time (seconds): 10.39
+	Percent of CPU this job got: 112%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 2:18.90
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 12224160
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 3910548
+	Voluntary context switches: 5611
+	Involuntary context switches: 625
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 6626512
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

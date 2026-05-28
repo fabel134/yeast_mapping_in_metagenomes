@@ -1,0 +1,276 @@
+++ pwd
++ source /home/nselem/competitiveMultiSpecies/config
++++ pwd
+++ BaseDir=/home/nselem/competitiveMultiSpecies
+++ srcDir=/home/nselem/competitiveMultiSpecies/src
+++ archiveYes=no
+++ typeReads=long
+++ genomesDir=/home/nselem/competitiveMultiSpecies/genomes
+++ sacchDir=/home/nselem/competitiveMultiSpecies/genomes/sacch
+++ outDir=/home/shared/onsimulation/metagenome/100simulation/Sce4Mock_100_1M/SGD/bam
+++ fastqDir=/home/shared/onsimulation/metagenome/100simulation/Sce4Mock_100_1M/SGD
+++ nThreads=4
+++ add=4
+++ nSamples=20
+++ nBatch=20
+++ bin_step=10000
+++ lengthChrsDir=/home/nselem/competitiveMultiSpecies/length_chrs
+++ listChrsDir=/home/nselem/competitiveMultiSpecies/list_chrs
+++ bedDir=/home/nselem/competitiveMultiSpecies/bed
+++ mapDir=/home/nselem/competitiveMultiSpecies/map
+++ cpsDir=/home/nselem/competitiveMultiSpecies/cps
+++ covDir=/home/nselem/competitiveMultiSpecies/cov
+++ repDir=/home/nselem/competitiveMultiSpecies/rep
+++ logsDir=/home/nselem/competitiveMultiSpecies/logs
+++ tmpDir=/home/nselem/competitiveMultiSpecies/tmp
+++ plotDir=/home/nselem/competitiveMultiSpecies/plots
+++ multiFastaDir=/home/nselem/competitiveMultiSpecies/genomes/multifasta
+++ checkFile=/home/nselem/competitiveMultiSpecies/cps/cps.txt
+++ FILE=/home/nselem/competitiveMultiSpecies/file
+++ conda info --base
+Unexpected error writing token file:
+  path: /home/nselem/.conda/aau_token_host
+  exception: write() argument must be str, not None
++ source /home/nselem/miniconda3/etc/profile.d/conda.sh
+++ export CONDA_EXE=/home/nselem/miniconda3/bin/conda
+++ CONDA_EXE=/home/nselem/miniconda3/bin/conda
+++ export _CONDA_EXE=/home/nselem/miniconda3/bin/conda
+++ _CONDA_EXE=/home/nselem/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/home/nselem/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/home/nselem/miniconda3/bin/python
+++ export _CONDA_ROOT=/home/nselem/miniconda3
+++ _CONDA_ROOT=/home/nselem/miniconda3
+++ '[' -z x ']'
++ commonMultiFasta=/home/nselem/competitiveMultiSpecies/genomes/multifasta/multi_species.fa
++ strains_file=/home/nselem/competitiveMultiSpecies/genomes/sacch/strains.txt
++ read -r strain
++ [[ -z #Based on: Tempo and Mode of Genome Evolution in the Budding Yeast Subphylum, Xing-Xing Shen et al. Cell (Rokas) 2018. ]]
++ [[ #Based on: Tempo and Mode of Genome Evolution in the Budding Yeast Subphylum, Xing-Xing Shen et al. Cell (Rokas) 2018. == \#* ]]
++ continue
++ read -r strain
++ [[ -z nakaseomyces_glabratus ]]
++ [[ nakaseomyces_glabratus == \#* ]]
++ fasta_path=/home/nselem/competitiveMultiSpecies/genomes/nakaseomyces_glabratus.fa
++ [[ -s /home/nselem/competitiveMultiSpecies/genomes/nakaseomyces_glabratus.fa ]]
++ cat /home/nselem/competitiveMultiSpecies/genomes/nakaseomyces_glabratus.fa
++ read -r strain
++ [[ -z kazachstania_africana ]]
++ [[ kazachstania_africana == \#* ]]
++ fasta_path=/home/nselem/competitiveMultiSpecies/genomes/kazachstania_africana.fa
++ [[ -s /home/nselem/competitiveMultiSpecies/genomes/kazachstania_africana.fa ]]
++ cat /home/nselem/competitiveMultiSpecies/genomes/kazachstania_africana.fa
++ read -r strain
++ [[ -z tetrapisispora_phaffii ]]
++ [[ tetrapisispora_phaffii == \#* ]]
++ fasta_path=/home/nselem/competitiveMultiSpecies/genomes/tetrapisispora_phaffii.fa
++ [[ -s /home/nselem/competitiveMultiSpecies/genomes/tetrapisispora_phaffii.fa ]]
++ cat /home/nselem/competitiveMultiSpecies/genomes/tetrapisispora_phaffii.fa
++ read -r strain
++ [[ -z torulaspora_delbrueckii ]]
++ [[ torulaspora_delbrueckii == \#* ]]
++ fasta_path=/home/nselem/competitiveMultiSpecies/genomes/torulaspora_delbrueckii.fa
++ [[ -s /home/nselem/competitiveMultiSpecies/genomes/torulaspora_delbrueckii.fa ]]
++ cat /home/nselem/competitiveMultiSpecies/genomes/torulaspora_delbrueckii.fa
++ read -r strain
++ [[ -z zygosaccharomyces_rouxii ]]
++ [[ zygosaccharomyces_rouxii == \#* ]]
++ fasta_path=/home/nselem/competitiveMultiSpecies/genomes/zygosaccharomyces_rouxii.fa
++ [[ -s /home/nselem/competitiveMultiSpecies/genomes/zygosaccharomyces_rouxii.fa ]]
++ cat /home/nselem/competitiveMultiSpecies/genomes/zygosaccharomyces_rouxii.fa
++ read -r strain
++ [[ -z lachancea_thermotolerans ]]
++ [[ lachancea_thermotolerans == \#* ]]
++ fasta_path=/home/nselem/competitiveMultiSpecies/genomes/lachancea_thermotolerans.fa
++ [[ -s /home/nselem/competitiveMultiSpecies/genomes/lachancea_thermotolerans.fa ]]
++ cat /home/nselem/competitiveMultiSpecies/genomes/lachancea_thermotolerans.fa
++ read -r strain
++ [[ -z kluyveromyces_marxianus ]]
++ [[ kluyveromyces_marxianus == \#* ]]
++ fasta_path=/home/nselem/competitiveMultiSpecies/genomes/kluyveromyces_marxianus.fa
++ [[ -s /home/nselem/competitiveMultiSpecies/genomes/kluyveromyces_marxianus.fa ]]
++ cat /home/nselem/competitiveMultiSpecies/genomes/kluyveromyces_marxianus.fa
++ read -r strain
++ [[ -z hanseniaspora_vineae ]]
++ [[ hanseniaspora_vineae == \#* ]]
++ fasta_path=/home/nselem/competitiveMultiSpecies/genomes/hanseniaspora_vineae.fa
++ [[ -s /home/nselem/competitiveMultiSpecies/genomes/hanseniaspora_vineae.fa ]]
++ cat /home/nselem/competitiveMultiSpecies/genomes/hanseniaspora_vineae.fa
++ read -r strain
++ [[ -z cyberlindnera_fabianii ]]
++ [[ cyberlindnera_fabianii == \#* ]]
++ fasta_path=/home/nselem/competitiveMultiSpecies/genomes/cyberlindnera_fabianii.fa
++ [[ -s /home/nselem/competitiveMultiSpecies/genomes/cyberlindnera_fabianii.fa ]]
++ cat /home/nselem/competitiveMultiSpecies/genomes/cyberlindnera_fabianii.fa
++ read -r strain
++ [[ -z wickerhamomyces_anomalus ]]
++ [[ wickerhamomyces_anomalus == \#* ]]
++ fasta_path=/home/nselem/competitiveMultiSpecies/genomes/wickerhamomyces_anomalus.fa
++ [[ -s /home/nselem/competitiveMultiSpecies/genomes/wickerhamomyces_anomalus.fa ]]
++ cat /home/nselem/competitiveMultiSpecies/genomes/wickerhamomyces_anomalus.fa
++ read -r strain
++ [[ -z saccharomycopsis_fibuligera ]]
++ [[ saccharomycopsis_fibuligera == \#* ]]
++ fasta_path=/home/nselem/competitiveMultiSpecies/genomes/saccharomycopsis_fibuligera.fa
++ [[ -s /home/nselem/competitiveMultiSpecies/genomes/saccharomycopsis_fibuligera.fa ]]
++ cat /home/nselem/competitiveMultiSpecies/genomes/saccharomycopsis_fibuligera.fa
++ read -r strain
++ [[ -z metschnikowia_zobellii ]]
++ [[ metschnikowia_zobellii == \#* ]]
++ fasta_path=/home/nselem/competitiveMultiSpecies/genomes/metschnikowia_zobellii.fa
++ [[ -s /home/nselem/competitiveMultiSpecies/genomes/metschnikowia_zobellii.fa ]]
++ cat /home/nselem/competitiveMultiSpecies/genomes/metschnikowia_zobellii.fa
++ read -r strain
++ [[ -z candidozyma_auris ]]
++ [[ candidozyma_auris == \#* ]]
++ fasta_path=/home/nselem/competitiveMultiSpecies/genomes/candidozyma_auris.fa
++ [[ -s /home/nselem/competitiveMultiSpecies/genomes/candidozyma_auris.fa ]]
++ cat /home/nselem/competitiveMultiSpecies/genomes/candidozyma_auris.fa
++ read -r strain
++ [[ -z hyphopichia_burtonii ]]
++ [[ hyphopichia_burtonii == \#* ]]
++ fasta_path=/home/nselem/competitiveMultiSpecies/genomes/hyphopichia_burtonii.fa
++ [[ -s /home/nselem/competitiveMultiSpecies/genomes/hyphopichia_burtonii.fa ]]
++ cat /home/nselem/competitiveMultiSpecies/genomes/hyphopichia_burtonii.fa
++ read -r strain
++ [[ -z candida_albicans ]]
++ [[ candida_albicans == \#* ]]
++ fasta_path=/home/nselem/competitiveMultiSpecies/genomes/candida_albicans.fa
++ [[ -s /home/nselem/competitiveMultiSpecies/genomes/candida_albicans.fa ]]
++ cat /home/nselem/competitiveMultiSpecies/genomes/candida_albicans.fa
++ read -r strain
++ [[ -z suhomyces_tanzawaensis ]]
++ [[ suhomyces_tanzawaensis == \#* ]]
++ fasta_path=/home/nselem/competitiveMultiSpecies/genomes/suhomyces_tanzawaensis.fa
++ [[ -s /home/nselem/competitiveMultiSpecies/genomes/suhomyces_tanzawaensis.fa ]]
++ cat /home/nselem/competitiveMultiSpecies/genomes/suhomyces_tanzawaensis.fa
++ read -r strain
++ [[ -z priceomyces_carsonii ]]
++ [[ priceomyces_carsonii == \#* ]]
++ fasta_path=/home/nselem/competitiveMultiSpecies/genomes/priceomyces_carsonii.fa
++ [[ -s /home/nselem/competitiveMultiSpecies/genomes/priceomyces_carsonii.fa ]]
++ cat /home/nselem/competitiveMultiSpecies/genomes/priceomyces_carsonii.fa
++ read -r strain
++ [[ -z debaryomyces_hansenii ]]
++ [[ debaryomyces_hansenii == \#* ]]
++ fasta_path=/home/nselem/competitiveMultiSpecies/genomes/debaryomyces_hansenii.fa
++ [[ -s /home/nselem/competitiveMultiSpecies/genomes/debaryomyces_hansenii.fa ]]
++ cat /home/nselem/competitiveMultiSpecies/genomes/debaryomyces_hansenii.fa
++ read -r strain
++ [[ -z yamadazyma_tenuis ]]
++ [[ yamadazyma_tenuis == \#* ]]
++ fasta_path=/home/nselem/competitiveMultiSpecies/genomes/yamadazyma_tenuis.fa
++ [[ -s /home/nselem/competitiveMultiSpecies/genomes/yamadazyma_tenuis.fa ]]
++ cat /home/nselem/competitiveMultiSpecies/genomes/yamadazyma_tenuis.fa
++ read -r strain
++ [[ -z meyerozyma_caribbica ]]
++ [[ meyerozyma_caribbica == \#* ]]
++ fasta_path=/home/nselem/competitiveMultiSpecies/genomes/meyerozyma_caribbica.fa
++ [[ -s /home/nselem/competitiveMultiSpecies/genomes/meyerozyma_caribbica.fa ]]
++ cat /home/nselem/competitiveMultiSpecies/genomes/meyerozyma_caribbica.fa
++ read -r strain
++ [[ -z babjeviella_inositovora ]]
++ [[ babjeviella_inositovora == \#* ]]
++ fasta_path=/home/nselem/competitiveMultiSpecies/genomes/babjeviella_inositovora.fa
++ [[ -s /home/nselem/competitiveMultiSpecies/genomes/babjeviella_inositovora.fa ]]
++ cat /home/nselem/competitiveMultiSpecies/genomes/babjeviella_inositovora.fa
++ read -r strain
++ [[ -z pichia_membranifaciens ]]
++ [[ pichia_membranifaciens == \#* ]]
++ fasta_path=/home/nselem/competitiveMultiSpecies/genomes/pichia_membranifaciens.fa
++ [[ -s /home/nselem/competitiveMultiSpecies/genomes/pichia_membranifaciens.fa ]]
++ cat /home/nselem/competitiveMultiSpecies/genomes/pichia_membranifaciens.fa
++ read -r strain
++ [[ -z brettanomyces_bruxellensis ]]
++ [[ brettanomyces_bruxellensis == \#* ]]
++ fasta_path=/home/nselem/competitiveMultiSpecies/genomes/brettanomyces_bruxellensis.fa
++ [[ -s /home/nselem/competitiveMultiSpecies/genomes/brettanomyces_bruxellensis.fa ]]
++ cat /home/nselem/competitiveMultiSpecies/genomes/brettanomyces_bruxellensis.fa
++ read -r strain
++ [[ -z ogataea_parapolymorpha ]]
++ [[ ogataea_parapolymorpha == \#* ]]
++ fasta_path=/home/nselem/competitiveMultiSpecies/genomes/ogataea_parapolymorpha.fa
++ [[ -s /home/nselem/competitiveMultiSpecies/genomes/ogataea_parapolymorpha.fa ]]
++ cat /home/nselem/competitiveMultiSpecies/genomes/ogataea_parapolymorpha.fa
++ read -r strain
++ [[ -z kuraishia_capsulata ]]
++ [[ kuraishia_capsulata == \#* ]]
++ fasta_path=/home/nselem/competitiveMultiSpecies/genomes/kuraishia_capsulata.fa
++ [[ -s /home/nselem/competitiveMultiSpecies/genomes/kuraishia_capsulata.fa ]]
++ cat /home/nselem/competitiveMultiSpecies/genomes/kuraishia_capsulata.fa
++ read -r strain
++ [[ -z sporopachydermia_quercuum ]]
++ [[ sporopachydermia_quercuum == \#* ]]
++ fasta_path=/home/nselem/competitiveMultiSpecies/genomes/sporopachydermia_quercuum.fa
++ [[ -s /home/nselem/competitiveMultiSpecies/genomes/sporopachydermia_quercuum.fa ]]
++ cat /home/nselem/competitiveMultiSpecies/genomes/sporopachydermia_quercuum.fa
++ read -r strain
++ [[ -z sugiyamaella_lignohabitans ]]
++ [[ sugiyamaella_lignohabitans == \#* ]]
++ fasta_path=/home/nselem/competitiveMultiSpecies/genomes/sugiyamaella_lignohabitans.fa
++ [[ -s /home/nselem/competitiveMultiSpecies/genomes/sugiyamaella_lignohabitans.fa ]]
++ cat /home/nselem/competitiveMultiSpecies/genomes/sugiyamaella_lignohabitans.fa
++ read -r strain
++ [[ -z starmerella_bacillaris ]]
++ [[ starmerella_bacillaris == \#* ]]
++ fasta_path=/home/nselem/competitiveMultiSpecies/genomes/starmerella_bacillaris.fa
++ [[ -s /home/nselem/competitiveMultiSpecies/genomes/starmerella_bacillaris.fa ]]
++ cat /home/nselem/competitiveMultiSpecies/genomes/starmerella_bacillaris.fa
++ read -r strain
++ [[ -z wickerhamiella_domercqiae ]]
++ [[ wickerhamiella_domercqiae == \#* ]]
++ fasta_path=/home/nselem/competitiveMultiSpecies/genomes/wickerhamiella_domercqiae.fa
++ [[ -s /home/nselem/competitiveMultiSpecies/genomes/wickerhamiella_domercqiae.fa ]]
++ cat /home/nselem/competitiveMultiSpecies/genomes/wickerhamiella_domercqiae.fa
++ read -r strain
++ [[ -z magnusiomyces_clavatus ]]
++ [[ magnusiomyces_clavatus == \#* ]]
++ fasta_path=/home/nselem/competitiveMultiSpecies/genomes/magnusiomyces_clavatus.fa
++ [[ -s /home/nselem/competitiveMultiSpecies/genomes/magnusiomyces_clavatus.fa ]]
++ cat /home/nselem/competitiveMultiSpecies/genomes/magnusiomyces_clavatus.fa
++ read -r strain
++ [[ -z candida_hispaniensis ]]
++ [[ candida_hispaniensis == \#* ]]
++ fasta_path=/home/nselem/competitiveMultiSpecies/genomes/candida_hispaniensis.fa
++ [[ -s /home/nselem/competitiveMultiSpecies/genomes/candida_hispaniensis.fa ]]
++ cat /home/nselem/competitiveMultiSpecies/genomes/candida_hispaniensis.fa
++ read -r strain
++ [[ -z tortispora_caseinolytica ]]
++ [[ tortispora_caseinolytica == \#* ]]
++ fasta_path=/home/nselem/competitiveMultiSpecies/genomes/tortispora_caseinolytica.fa
++ [[ -s /home/nselem/competitiveMultiSpecies/genomes/tortispora_caseinolytica.fa ]]
++ cat /home/nselem/competitiveMultiSpecies/genomes/tortispora_caseinolytica.fa
++ read -r strain
++ [[ -z lipomyces_starkeyi ]]
++ [[ lipomyces_starkeyi == \#* ]]
++ fasta_path=/home/nselem/competitiveMultiSpecies/genomes/lipomyces_starkeyi.fa
++ [[ -s /home/nselem/competitiveMultiSpecies/genomes/lipomyces_starkeyi.fa ]]
++ cat /home/nselem/competitiveMultiSpecies/genomes/lipomyces_starkeyi.fa
++ read -r strain
++ echo 'Creato multi-species FASTA: /home/nselem/competitiveMultiSpecies/genomes/multifasta/multi_species.fa'
+	Command being timed: "bash /home/nselem/competitiveMultiSpecies/src/add_fasta.sh"
+	User time (seconds): 0.38
+	System time (seconds): 0.47
+	Percent of CPU this job got: 103%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.83
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 74752
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 29650
+	Voluntary context switches: 120
+	Involuntary context switches: 11
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 819672
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

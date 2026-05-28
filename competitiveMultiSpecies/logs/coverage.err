@@ -1,0 +1,195 @@
+++ pwd
++ source /home/nselem/competitiveMultiSpecies/config
++++ pwd
+++ BaseDir=/home/nselem/competitiveMultiSpecies
+++ srcDir=/home/nselem/competitiveMultiSpecies/src
+++ archiveYes=no
+++ typeReads=long
+++ genomesDir=/home/nselem/competitiveMultiSpecies/genomes
+++ sacchDir=/home/nselem/competitiveMultiSpecies/genomes/sacch
+++ outDir=/home/shared/onsimulation/metagenome/100simulation/Sce4Mock_100_1M/SGD/bam
+++ fastqDir=/home/shared/onsimulation/metagenome/100simulation/Sce4Mock_100_1M/SGD
+++ nThreads=4
+++ add=4
+++ nSamples=20
+++ nBatch=20
+++ bin_step=10000
+++ lengthChrsDir=/home/nselem/competitiveMultiSpecies/length_chrs
+++ listChrsDir=/home/nselem/competitiveMultiSpecies/list_chrs
+++ bedDir=/home/nselem/competitiveMultiSpecies/bed
+++ mapDir=/home/nselem/competitiveMultiSpecies/map
+++ cpsDir=/home/nselem/competitiveMultiSpecies/cps
+++ covDir=/home/nselem/competitiveMultiSpecies/cov
+++ repDir=/home/nselem/competitiveMultiSpecies/rep
+++ logsDir=/home/nselem/competitiveMultiSpecies/logs
+++ tmpDir=/home/nselem/competitiveMultiSpecies/tmp
+++ plotDir=/home/nselem/competitiveMultiSpecies/plots
+++ multiFastaDir=/home/nselem/competitiveMultiSpecies/genomes/multifasta
+++ checkFile=/home/nselem/competitiveMultiSpecies/cps/cps.txt
+++ FILE=/home/nselem/competitiveMultiSpecies/file
+++ conda info --base
+Unexpected error writing token file:
+  path: /home/nselem/.conda/aau_token_host
+  exception: write() argument must be str, not None
++ source /home/nselem/miniconda3/etc/profile.d/conda.sh
+++ export CONDA_EXE=/home/nselem/miniconda3/bin/conda
+++ CONDA_EXE=/home/nselem/miniconda3/bin/conda
+++ export _CONDA_EXE=/home/nselem/miniconda3/bin/conda
+++ _CONDA_EXE=/home/nselem/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/home/nselem/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/home/nselem/miniconda3/bin/python
+++ export _CONDA_ROOT=/home/nselem/miniconda3
+++ _CONDA_ROOT=/home/nselem/miniconda3
+++ '[' -z x ']'
++ IndS=metagenome.SGD
++ conda activate samtools
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate samtools
++ '[' -n '' ']'
++ local ask_conda
+++ PS1=
+++ __conda_exe shell.posix activate samtools
+++ '[' -n '' ']'
+++ /home/nselem/miniconda3/bin/conda shell.posix activate samtools
+
+EnvironmentNameNotFound: Could not find conda environment: samtools
+You can list all discoverable environments with `conda info --envs`.
+
+
++ ask_conda=
++ return
++ for filepath in "$multiFastaDir"/*.fa
+++ basename /home/nselem/competitiveMultiSpecies/genomes/multifasta/multi_species.fa
++ filename=multi_species.fa
++ nameID=multi_species
++ mkdir -p /home/nselem/competitiveMultiSpecies/cov/multi_species
++ covDirName=/home/nselem/competitiveMultiSpecies/cov/multi_species
+++ ls /home/nselem/competitiveMultiSpecies/rep/multi_species/multi_species.fa
+++ head -n1
++ IndR=/home/nselem/competitiveMultiSpecies/rep/multi_species/multi_species.fa
+++ basename /home/nselem/competitiveMultiSpecies/rep/multi_species/multi_species.fa
+++ cut -d . -f1
++ refID=multi_species
++ cat /home/nselem/competitiveMultiSpecies/bed/multi_species.bed
++ awk '{print $1":"$2"-"$3}'
++ xargs -P 10 -I '{}' samtools coverage -q30 -Q30 --ff UNMAP,SECONDARY,QCFAIL,DUP -r '{}' /home/nselem/competitiveMultiSpecies/map/multi_species/metagenome.SGD.multi_species.multi_species.bam
++ grep -v '#'
++ cut -f1-10
++ conda deactivate
++ local cmd=deactivate
++ case "$cmd" in
++ __conda_activate deactivate
++ '[' -n '' ']'
++ local ask_conda
+++ PS1=
+++ __conda_exe shell.posix deactivate
+++ '[' -n '' ']'
+++ /home/nselem/miniconda3/bin/conda shell.posix deactivate
++ ask_conda='export PATH='\''/home/nselem/miniconda3/bin:/home/nselem/miniconda3/condabin:/home/tools/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'\''
+. "/home/nselem/miniconda3/envs/simmeta/etc/conda/deactivate.d/libglib_deactivate.sh"
+. "/home/nselem/miniconda3/envs/simmeta/etc/conda/deactivate.d/deactivate-r-base.sh"
+export CONDA_PREFIX_1='\'''\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+PS1='\''(base) '\''
+export CONDA_PREFIX='\''/home/nselem/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/home/nselem/miniconda3/bin/conda'\''
+export _CONDA_EXE='\''/home/nselem/miniconda3/bin/conda'\''
+export CONDA_PYTHON_EXE='\''/home/nselem/miniconda3/bin/python'\''
+export _CONDA_ROOT='\''/home/nselem/miniconda3'\''
+. "/home/nselem/miniconda3/etc/conda/activate.d/activate.sh"
+. "/home/nselem/miniconda3/etc/conda/activate.d/libglib_activate.sh"'
++ eval 'export PATH='\''/home/nselem/miniconda3/bin:/home/nselem/miniconda3/condabin:/home/tools/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'\''
+. "/home/nselem/miniconda3/envs/simmeta/etc/conda/deactivate.d/libglib_deactivate.sh"
+. "/home/nselem/miniconda3/envs/simmeta/etc/conda/deactivate.d/deactivate-r-base.sh"
+export CONDA_PREFIX_1='\'''\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+PS1='\''(base) '\''
+export CONDA_PREFIX='\''/home/nselem/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/home/nselem/miniconda3/bin/conda'\''
+export _CONDA_EXE='\''/home/nselem/miniconda3/bin/conda'\''
+export CONDA_PYTHON_EXE='\''/home/nselem/miniconda3/bin/python'\''
+export _CONDA_ROOT='\''/home/nselem/miniconda3'\''
+. "/home/nselem/miniconda3/etc/conda/activate.d/activate.sh"
+. "/home/nselem/miniconda3/etc/conda/activate.d/libglib_activate.sh"'
+++ export PATH=/home/nselem/miniconda3/bin:/home/nselem/miniconda3/condabin:/home/tools/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+++ PATH=/home/nselem/miniconda3/bin:/home/nselem/miniconda3/condabin:/home/tools/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+++ . /home/nselem/miniconda3/envs/simmeta/etc/conda/deactivate.d/libglib_deactivate.sh
++++ export GSETTINGS_SCHEMA_DIR=
++++ GSETTINGS_SCHEMA_DIR=
++++ unset GSETTINGS_SCHEMA_DIR_CONDA_BACKUP
++++ '[' -z ']'
++++ unset GSETTINGS_SCHEMA_DIR
+++ . /home/nselem/miniconda3/envs/simmeta/etc/conda/deactivate.d/deactivate-r-base.sh
++++ '[' -n '' ']'
++++ unset RSTUDIO_WHICH_R
+++ export CONDA_PREFIX_1=
+++ CONDA_PREFIX_1=
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ PS1='(base) '
+++ export CONDA_PREFIX=/home/nselem/miniconda3
+++ CONDA_PREFIX=/home/nselem/miniconda3
+++ export CONDA_SHLVL=1
+++ CONDA_SHLVL=1
+++ export CONDA_DEFAULT_ENV=base
+++ CONDA_DEFAULT_ENV=base
+++ export 'CONDA_PROMPT_MODIFIER=(base) '
+++ CONDA_PROMPT_MODIFIER='(base) '
+++ export CONDA_EXE=/home/nselem/miniconda3/bin/conda
+++ CONDA_EXE=/home/nselem/miniconda3/bin/conda
+++ export _CONDA_EXE=/home/nselem/miniconda3/bin/conda
+++ _CONDA_EXE=/home/nselem/miniconda3/bin/conda
+++ export CONDA_PYTHON_EXE=/home/nselem/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/home/nselem/miniconda3/bin/python
+++ export _CONDA_ROOT=/home/nselem/miniconda3
+++ _CONDA_ROOT=/home/nselem/miniconda3
+++ . /home/nselem/miniconda3/etc/conda/activate.d/activate.sh
++++ export __EGL_VENDOR_LIBRARY_DIRS=/home/nselem/miniconda3/share/glvnd/egl_vendor.d
++++ __EGL_VENDOR_LIBRARY_DIRS=/home/nselem/miniconda3/share/glvnd/egl_vendor.d
+++ . /home/nselem/miniconda3/etc/conda/activate.d/libglib_activate.sh
++++ export GSETTINGS_SCHEMA_DIR_CONDA_BACKUP=
++++ GSETTINGS_SCHEMA_DIR_CONDA_BACKUP=
++++ export GSETTINGS_SCHEMA_DIR=/home/nselem/miniconda3/share/glib-2.0/schemas
++++ GSETTINGS_SCHEMA_DIR=/home/nselem/miniconda3/share/glib-2.0/schemas
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
+	Command being timed: "bash /home/nselem/competitiveMultiSpecies/src/coverage.sh metagenome.SGD"
+	User time (seconds): 46.61
+	System time (seconds): 144.17
+	Percent of CPU this job got: 448%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:42.56
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 74752
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 886
+	Minor (reclaiming a frame) page faults: 14939128
+	Voluntary context switches: 179369
+	Involuntary context switches: 27015
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 5984
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,0 +1,117 @@
++ source config
++++ pwd
+++ BaseDir=/home/nselem/competitiveMultiSpecies
+++ srcDir=/home/nselem/competitiveMultiSpecies/src
+++ archiveYes=no
+++ typeReads=long
+++ genomesDir=/home/nselem/competitiveMultiSpecies/genomes
+++ sacchDir=/home/nselem/competitiveMultiSpecies/genomes/sacch
+++ outDir=/home/shared/onsimulation/metagenome/100simulation/Sce4Mock_100_1M/SGD/bam
+++ fastqDir=/home/shared/onsimulation/metagenome/100simulation/Sce4Mock_100_1M/SGD
+++ nThreads=4
+++ add=4
+++ nSamples=20
+++ nBatch=20
+++ bin_step=10000
+++ lengthChrsDir=/home/nselem/competitiveMultiSpecies/length_chrs
+++ listChrsDir=/home/nselem/competitiveMultiSpecies/list_chrs
+++ bedDir=/home/nselem/competitiveMultiSpecies/bed
+++ mapDir=/home/nselem/competitiveMultiSpecies/map
+++ cpsDir=/home/nselem/competitiveMultiSpecies/cps
+++ covDir=/home/nselem/competitiveMultiSpecies/cov
+++ repDir=/home/nselem/competitiveMultiSpecies/rep
+++ logsDir=/home/nselem/competitiveMultiSpecies/logs
+++ tmpDir=/home/nselem/competitiveMultiSpecies/tmp
+++ plotDir=/home/nselem/competitiveMultiSpecies/plots
+++ multiFastaDir=/home/nselem/competitiveMultiSpecies/genomes/multifasta
+++ checkFile=/home/nselem/competitiveMultiSpecies/cps/cps.txt
+++ FILE=/home/nselem/competitiveMultiSpecies/file
++ : /home/nselem/competitiveMultiSpecies/map
++ : /home/nselem/competitiveMultiSpecies/cps
++ : /home/nselem/competitiveMultiSpecies/rep
++ : /home/nselem/competitiveMultiSpecies/cov
++ : /home/nselem/competitiveMultiSpecies/tmp
++ : /home/nselem/competitiveMultiSpecies/bed
++ : /home/nselem/competitiveMultiSpecies/length_chrs
++ : /home/nselem/competitiveMultiSpecies/list_chrs
++ : /home/nselem/competitiveMultiSpecies/plots
++ : /home/nselem/competitiveMultiSpecies/genomes/multifasta
++ : /home/nselem/competitiveMultiSpecies/file
++ : /home/shared/onsimulation/metagenome/100simulation/Sce4Mock_100_1M/SGD
++ : long
++ [[ long != \l\o\n\g ]]
++ [[ -d /home/nselem/competitiveMultiSpecies/map ]]
++ rm -rf /home/nselem/competitiveMultiSpecies/map
++ mkdir -p /home/nselem/competitiveMultiSpecies/map
++ [[ -d /home/nselem/competitiveMultiSpecies/rep ]]
++ rm -rf /home/nselem/competitiveMultiSpecies/rep
++ mkdir -p /home/nselem/competitiveMultiSpecies/rep
++ [[ -d /home/nselem/competitiveMultiSpecies/cps ]]
++ rm -rf /home/nselem/competitiveMultiSpecies/cps
++ mkdir -p /home/nselem/competitiveMultiSpecies/cps
++ [[ -d /home/nselem/competitiveMultiSpecies/cov ]]
++ rm -rf /home/nselem/competitiveMultiSpecies/cov
++ mkdir -p /home/nselem/competitiveMultiSpecies/cov
++ [[ -d /home/nselem/competitiveMultiSpecies/tmp ]]
++ rm -rf /home/nselem/competitiveMultiSpecies/tmp
++ mkdir -p /home/nselem/competitiveMultiSpecies/tmp
++ [[ -d /home/nselem/competitiveMultiSpecies/bed ]]
++ rm -rf /home/nselem/competitiveMultiSpecies/bed
++ mkdir /home/nselem/competitiveMultiSpecies/bed
++ [[ -d /home/nselem/competitiveMultiSpecies/length_chrs ]]
++ rm -rf /home/nselem/competitiveMultiSpecies/length_chrs
++ mkdir /home/nselem/competitiveMultiSpecies/length_chrs
++ [[ -d /home/nselem/competitiveMultiSpecies/list_chrs ]]
++ rm -rf /home/nselem/competitiveMultiSpecies/list_chrs
++ mkdir /home/nselem/competitiveMultiSpecies/list_chrs
++ [[ -d /home/nselem/competitiveMultiSpecies/plots ]]
++ rm -rf /home/nselem/competitiveMultiSpecies/plots
++ mkdir /home/nselem/competitiveMultiSpecies/plots
++ [[ -d /home/nselem/competitiveMultiSpecies/genomes/multifasta ]]
++ rm -rf /home/nselem/competitiveMultiSpecies/genomes/multifasta
++ mkdir /home/nselem/competitiveMultiSpecies/genomes/multifasta
++ cp /home/nselem/competitiveMultiSpecies/genomes/sacch/multi_species.fa /home/nselem/competitiveMultiSpecies/genomes/multifasta
++ [[ -f /home/nselem/competitiveMultiSpecies/file ]]
++ echo '/home/nselem/competitiveMultiSpecies/file exists.'
++ rm -rf /home/nselem/competitiveMultiSpecies/file
++ touch /home/nselem/competitiveMultiSpecies/file
++ echo '/home/nselem/competitiveMultiSpecies/file created.'
++ [[ -f /home/nselem/competitiveMultiSpecies/cps/cps.txt ]]
++ touch /home/nselem/competitiveMultiSpecies/cps/cps.txt
++ echo '/home/nselem/competitiveMultiSpecies/cps/cps.txt created.'
+++ find /home/shared/onsimulation/metagenome/100simulation/Sce4Mock_100_1M/SGD -name '*.fastq.gz'
+++ rev
+++ cut -d/ -f1
+++ rev
+++ sed -E 's/_([12])\.fastq\.gz$//'
+++ sed -E 's/\.fastq\.gz$//'
+++ sort -u
++ names=metagenome.SGD
++ echo metagenome.SGD
++ echo 'Trovati i seguenti file nella directory /home/shared/onsimulation/metagenome/100simulation/Sce4Mock_100_1M/SGD:'
++ echo metagenome.SGD
++ echo 'Nomi salvati in /home/nselem/competitiveMultiSpecies/file'
++ echo 'Inizializzazione completata'
+	Command being timed: "bash /home/nselem/competitiveMultiSpecies/initialize.sh"
+	User time (seconds): 0.01
+	System time (seconds): 0.83
+	Percent of CPU this job got: 101%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.83
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 3072
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 4816
+	Voluntary context switches: 60
+	Involuntary context switches: 67
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 211216
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
